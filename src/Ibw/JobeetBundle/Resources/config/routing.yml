@@ -1,0 +1,8 @@
+ibw_jobeet_ibw_job:
+    resource: "@IbwJobeetBundle/Resources/config/routing/job.php"
+    prefix:   /ibw_job
+
+ibw_jobeet_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: IbwJobeetBundle:Default:index }
+
