@@ -77,6 +77,7 @@
   'SwiftmailerBundle:Collector:swiftmailer.html.twig' => '/opt/lampp/htdocs/symfony/vendor/symfony/swiftmailer-bundle/Resources/views/Collector/swiftmailer.html.twig',
   'DoctrineBundle:Collector:db.html.twig' => '/opt/lampp/htdocs/symfony/vendor/doctrine/doctrine-bundle/Resources/views/Collector/db.html.twig',
   'DoctrineBundle:Collector:explain.html.twig' => '/opt/lampp/htdocs/symfony/vendor/doctrine/doctrine-bundle/Resources/views/Collector/explain.html.twig',
+  'IbwJobeetBundle::layout.html.twig' => '/opt/lampp/htdocs/symfony/src/Ibw/JobeetBundle/Resources/views/layout.html.twig',
   'IbwJobeetBundle:Job:index.html.twig' => '/opt/lampp/htdocs/symfony/src/Ibw/JobeetBundle/Resources/views/Job/index.html.twig',
   'IbwJobeetBundle:Job:show.html.twig' => '/opt/lampp/htdocs/symfony/src/Ibw/JobeetBundle/Resources/views/Job/show.html.twig',
   'IbwJobeetBundle:Job:new.html.twig' => '/opt/lampp/htdocs/symfony/src/Ibw/JobeetBundle/Resources/views/Job/new.html.twig',
