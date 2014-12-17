@@ -22,11 +22,16 @@ class JobController extends Controller
     public function indexAction()
     {
         $em = $this->getDoctrine()->getManager();
-
-        $entities = $em->getRepository('IbwJobeetBundle:Job')->findAll();
-
+ 
+        $categories = $em->getRepository('IbwJobeetBundle:Category')->getWithJobs();
+ 
+        foreach($categories as $category)
+        {
+            $category->setActiveJobs($em->getRepository('IbwJobeetBundle:Job')->getActiveJobs($category->getId(), 10));
+        }
+ 
         return $this->render('IbwJobeetBundle:Job:index.html.twig', array(
-            'entities' => $entities,
+            'categories' => $categories
         ));
     }
     /**

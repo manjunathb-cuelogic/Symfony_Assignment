@@ -2,7 +2,8 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
-
+parameters:
+    max_jobs_on_homepage: 10
 framework:
     #esi:             ~
     #translator:      { fallback: "%locale%" }
